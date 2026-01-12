@@ -6,7 +6,7 @@
 -- =============================================================================
 -- EXTENSIONS
 -- =============================================================================
-CREATE EXTENSION IF NOT EXISTS vector;
+CREATE EXTENSION IF NOT EXISTS vector WITH SCHEMA extensions;
 -- Note: pg_cron and pg_net must be enabled via Supabase Dashboard
 
 -- =============================================================================
@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS scout_executions (
   error_message TEXT,
   results_summary JSONB,
   summary_text TEXT, -- One-sentence AI-generated summary
-  summary_embedding vector(1536), -- OpenAI text-embedding-3-small
+  summary_embedding extensions.vector(1536), -- OpenAI text-embedding-3-small
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
@@ -142,7 +142,7 @@ CREATE INDEX IF NOT EXISTS idx_scout_executions_scout_id ON scout_executions(sco
 CREATE INDEX IF NOT EXISTS idx_scout_executions_status ON scout_executions(status);
 CREATE INDEX IF NOT EXISTS idx_scout_executions_started_at ON scout_executions(started_at DESC);
 CREATE INDEX IF NOT EXISTS idx_scout_executions_summary_embedding ON scout_executions
-  USING hnsw (summary_embedding vector_cosine_ops);
+  USING hnsw (summary_embedding extensions.vector_cosine_ops);
 
 CREATE INDEX IF NOT EXISTS idx_scout_execution_steps_execution_id ON scout_execution_steps(execution_id);
 CREATE INDEX IF NOT EXISTS idx_scout_execution_steps_step_number ON scout_execution_steps(step_number);
