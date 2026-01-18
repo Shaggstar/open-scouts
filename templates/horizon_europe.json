@@ -1,0 +1,37 @@
+{
+  "name": "Horizon Europe",
+  "description": "EU Framework Programme for Research and Innovation",
+  "source_type": "horizon_eu",
+  "frequency": "daily",
+  "search_queries": [
+    "site:ec.europa.eu/info/funding-tenders horizon europe call",
+    "site:cordis.europa.eu horizon europe open call"
+  ],
+  "target_urls": [
+    "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search",
+    "https://cordis.europa.eu/search?q=contenttype%3D%27project%27"
+  ],
+  "eligibility_defaults": {
+    "geography": ["EU"],
+    "institution_type": ["Academic", "Nonprofit", "Industry"]
+  },
+  "focus_area_keywords": [
+    "digital-infrastructure",
+    "ai-governance",
+    "complex-systems",
+    "cultural-heritage",
+    "climate-research"
+  ],
+  "clusters": [
+    {
+      "id": "cluster4",
+      "name": "Digital, Industry and Space",
+      "topics": ["AI", "data", "robotics", "digital-twins"]
+    },
+    {
+      "id": "cluster6", 
+      "name": "Food, Bioeconomy, Natural Resources",
+      "topics": ["biodiversity", "circular-economy", "ecosystems"]
+    }
+  ]
+}

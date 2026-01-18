@@ -1,0 +1,58 @@
+{
+  "name": "Tech Philanthropy",
+  "description": "Technology-focused philanthropic funding (Mozilla, McGovern, Schmidt, Omidyar)",
+  "source_type": "philanthropic",
+  "frequency": "weekly",
+  "search_queries": [
+    "site:foundation.mozilla.org grant fellowship",
+    "site:mcgovern.org grant funding",
+    "site:schmidtsciences.org funding",
+    "site:omidyar.com grant investment",
+    "responsible AI grant 2026"
+  ],
+  "target_urls": [
+    "https://foundation.mozilla.org/en/what-we-fund/",
+    "https://www.mcgovern.org/",
+    "https://www.schmidtsciences.org/",
+    "https://omidyar.com/"
+  ],
+  "eligibility_defaults": {
+    "geography": ["Global"],
+    "institution_type": ["Nonprofit", "Startup", "Academic"]
+  },
+  "focus_area_keywords": [
+    "responsible-tech",
+    "ai-governance",
+    "open-source",
+    "data-rights",
+    "climate-tech",
+    "public-interest-technology",
+    "digital-democracy"
+  ],
+  "funders": [
+    {
+      "name": "Mozilla Foundation",
+      "url": "https://foundation.mozilla.org/",
+      "typical_amount": "$50K-$500K",
+      "focus": "Responsible tech, open infrastructure, AI accountability"
+    },
+    {
+      "name": "Patrick J. McGovern Foundation",
+      "url": "https://www.mcgovern.org/",
+      "typical_amount": "$100K-$1M",
+      "focus": "Data for social impact, AI for good"
+    },
+    {
+      "name": "Schmidt Sciences",
+      "url": "https://www.schmidtsciences.org/",
+      "typical_amount": "Variable, often large",
+      "focus": "Scientific breakthroughs, AI for science"
+    },
+    {
+      "name": "Omidyar Network",
+      "url": "https://omidyar.com/",
+      "typical_amount": "Investment + grants",
+      "focus": "Responsible tech, digital infrastructure"
+    }
+  ]
+}

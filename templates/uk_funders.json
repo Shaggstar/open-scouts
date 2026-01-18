@@ -1,0 +1,49 @@
+{
+  "name": "UK Research Funders",
+  "description": "UK-based research funding including ARIA and UK AISI",
+  "source_type": "government",
+  "frequency": "weekly",
+  "search_queries": [
+    "site:aria.org.uk funding",
+    "site:gov.uk AI safety institute funding",
+    "site:ukri.org funding opportunity",
+    "UK AI safety research grant"
+  ],
+  "target_urls": [
+    "https://www.aria.org.uk/",
+    "https://www.gov.uk/government/organisations/ai-safety-institute",
+    "https://www.ukri.org/opportunity/"
+  ],
+  "eligibility_defaults": {
+    "geography": ["UK", "Global"],
+    "institution_type": ["Academic", "Nonprofit", "Startup"]
+  },
+  "focus_area_keywords": [
+    "ai-safety",
+    "frontier-ai",
+    "transformative-technology",
+    "high-risk-research",
+    "moonshot-projects"
+  ],
+  "funders": [
+    {
+      "name": "ARIA (UK)",
+      "url": "https://www.aria.org.uk/",
+      "typical_amount": "£1M-£10M+ for programs",
+      "focus": "High-risk, high-reward research programs"
+    },
+    {
+      "name": "UK AI Safety Institute",
+      "url": "https://www.gov.uk/government/organisations/ai-safety-institute",
+      "typical_amount": "Variable",
+      "focus": "AI safety evaluation, frontier AI research"
+    },
+    {
+      "name": "UKRI",
+      "url": "https://www.ukri.org/",
+      "typical_amount": "Variable by council",
+      "focus": "Full spectrum of UK research funding"
+    }
+  ],
+  "notes": "ARIA operates differently from traditional funders - they recruit program directors who then fund research in their area."
+}

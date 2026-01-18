@@ -1,0 +1,27 @@
+{
+  "name": "Federal US - NSF",
+  "description": "National Science Foundation funding opportunities",
+  "source_type": "federal_us",
+  "frequency": "daily",
+  "search_queries": [
+    "site:nsf.gov funding opportunity",
+    "site:nsf.gov program solicitation",
+    "site:beta.nsf.gov research grant"
+  ],
+  "target_urls": [
+    "https://www.nsf.gov/funding/",
+    "https://beta.nsf.gov/funding/opportunities",
+    "https://www.nsf.gov/funding/pgm_list.jsp?type=all"
+  ],
+  "eligibility_defaults": {
+    "geography": ["US"],
+    "institution_type": ["Academic", "Nonprofit"]
+  },
+  "focus_area_keywords": [
+    "cognitive-neuroscience",
+    "brain-research",
+    "complex-systems",
+    "computational-modeling",
+    "interdisciplinary-research"
+  ]
+}

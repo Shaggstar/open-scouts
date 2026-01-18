@@ -1,0 +1,80 @@
+{
+  "name": "Neuroscience & Complex Systems",
+  "description": "Neuroscience, brain research, and complex systems funding",
+  "source_type": "philanthropic",
+  "frequency": "weekly",
+  "search_queries": [
+    "site:simonsfoundation.org grant funding",
+    "site:sfari.org funding",
+    "site:kavlifoundation.org grant",
+    "site:santafe.edu research opportunity",
+    "site:wellcome.org funding scheme",
+    "site:jsmf.org grant program"
+  ],
+  "target_urls": [
+    "https://www.simonsfoundation.org/funding-opportunities/",
+    "https://www.sfari.org/funding-opportunities/",
+    "https://www.kavlifoundation.org/grants",
+    "https://www.santafe.edu/engage/learn/programs",
+    "https://wellcome.org/grant-funding",
+    "https://www.jsmf.org/apply/"
+  ],
+  "eligibility_defaults": {
+    "geography": ["Global"],
+    "institution_type": ["Academic", "Nonprofit"]
+  },
+  "focus_area_keywords": [
+    "neuroscience",
+    "complex-systems",
+    "computational-modeling",
+    "brain-research",
+    "cognitive-science",
+    "consciousness",
+    "interdisciplinary-research",
+    "active-inference"
+  ],
+  "funders": [
+    {
+      "name": "Simons Foundation",
+      "url": "https://www.simonsfoundation.org/",
+      "typical_amount": "$100K-$600K",
+      "focus": "Math, physics, life sciences, autism research"
+    },
+    {
+      "name": "SFARI (Simons)",
+      "url": "https://www.sfari.org/",
+      "typical_amount": "Variable",
+      "focus": "Autism research, neuroscience"
+    },
+    {
+      "name": "Kavli Foundation",
+      "url": "https://www.kavlifoundation.org/",
+      "typical_amount": "Variable",
+      "focus": "Neuroscience, astrophysics, nanoscience"
+    },
+    {
+      "name": "Santa Fe Institute",
+      "url": "https://www.santafe.edu/",
+      "typical_amount": "Fellowships + project funding",
+      "focus": "Complex systems, computational modeling"
+    },
+    {
+      "name": "Wellcome Trust",
+      "url": "https://wellcome.org/",
+      "typical_amount": "£50K-£3M+",
+      "focus": "Health research, neuroscience, mental health"
+    },
+    {
+      "name": "James S. McDonnell Foundation",
+      "url": "https://www.jsmf.org/",
+      "typical_amount": "$150K-$600K",
+      "focus": "Complex systems, brain research"
+    },
+    {
+      "name": "Brain Research Foundation",
+      "url": "https://www.thebrf.org/",
+      "typical_amount": "$50K-$150K",
+      "focus": "Neuroscience seed grants"
+    }
+  ]
+}

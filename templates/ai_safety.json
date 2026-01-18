@@ -1,0 +1,65 @@
+{
+  "name": "AI Safety Funders",
+  "description": "AI safety, alignment, and existential risk funding",
+  "source_type": "philanthropic",
+  "frequency": "weekly",
+  "search_queries": [
+    "site:openphilanthropy.org AI safety grant",
+    "site:futureoflife.org grant fellowship",
+    "site:foresight.org grant program",
+    "site:safe.ai funding research",
+    "AI safety research grant 2026"
+  ],
+  "target_urls": [
+    "https://www.openphilanthropy.org/focus/potential-risks-from-advanced-artificial-intelligence/",
+    "https://futureoflife.org/our-work/grantmaking-work/",
+    "https://foresight.org/tech-tree-grant-program/",
+    "https://www.safe.ai/research",
+    "https://funds.effectivealtruism.org/funds/far-future"
+  ],
+  "eligibility_defaults": {
+    "geography": ["Global"],
+    "institution_type": ["Academic", "Nonprofit", "Startup"]
+  },
+  "focus_area_keywords": [
+    "ai-safety",
+    "ai-alignment",
+    "multi-agent-safety",
+    "interpretability",
+    "existential-risk",
+    "ai-governance",
+    "technical-ai-safety"
+  ],
+  "funders": [
+    {
+      "name": "Open Philanthropy",
+      "url": "https://www.openphilanthropy.org/",
+      "typical_amount": "Variable, $50K-$5M+"
+    },
+    {
+      "name": "Future of Life Institute",
+      "url": "https://futureoflife.org/",
+      "typical_amount": "$50K-$500K"
+    },
+    {
+      "name": "Foresight Institute",
+      "url": "https://foresight.org/",
+      "typical_amount": "$10K-$100K + compute"
+    },
+    {
+      "name": "Center for AI Safety",
+      "url": "https://www.safe.ai/",
+      "typical_amount": "Variable"
+    },
+    {
+      "name": "Long-Term Future Fund",
+      "url": "https://funds.effectivealtruism.org/funds/far-future",
+      "typical_amount": "$10K-$300K"
+    },
+    {
+      "name": "Survival and Flourishing Fund",
+      "url": "https://survivalandflourishing.fund/",
+      "typical_amount": "$5K-$100K+"
+    }
+  ]
+}

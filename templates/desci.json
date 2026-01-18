@@ -1,0 +1,59 @@
+{
+  "name": "DeSci & Crypto Funders",
+  "description": "Decentralized science and crypto-native research funding",
+  "source_type": "industry",
+  "frequency": "weekly",
+  "search_queries": [
+    "site:vitadao.com funding grant",
+    "site:molecule.xyz funding",
+    "site:researchhub.com grant",
+    "DeSci funding opportunity 2026",
+    "decentralized science grant"
+  ],
+  "target_urls": [
+    "https://www.vitadao.com/funding",
+    "https://www.molecule.xyz/",
+    "https://www.researchhub.com/",
+    "https://desci.foundation/"
+  ],
+  "eligibility_defaults": {
+    "geography": ["Global"],
+    "institution_type": ["Academic", "Nonprofit", "Startup", "Any"]
+  },
+  "focus_area_keywords": [
+    "longevity",
+    "decentralized-science",
+    "open-research",
+    "ip-nfts",
+    "biotech",
+    "reproducibility",
+    "open-access"
+  ],
+  "funders": [
+    {
+      "name": "VitaDAO",
+      "url": "https://www.vitadao.com/",
+      "typical_amount": "$50K-$300K",
+      "focus": "Longevity research, IP-NFTs"
+    },
+    {
+      "name": "Molecule Protocol",
+      "url": "https://www.molecule.xyz/",
+      "typical_amount": "Variable",
+      "focus": "Biotech IP, decentralized drug development"
+    },
+    {
+      "name": "ResearchHub",
+      "url": "https://www.researchhub.com/",
+      "typical_amount": "Bounties + RSC tokens",
+      "focus": "Open science, peer review incentives"
+    },
+    {
+      "name": "DeSci Foundation",
+      "url": "https://desci.foundation/",
+      "typical_amount": "Variable",
+      "focus": "Decentralized science infrastructure"
+    }
+  ],
+  "notes": "DeSci funding often uses tokens/crypto. Verify current programs as this space evolves rapidly."
+}

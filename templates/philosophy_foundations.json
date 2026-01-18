@@ -1,0 +1,53 @@
+{
+  "name": "Philosophy of Science & Foundations",
+  "description": "Foundational questions, consciousness, philosophy of science funding",
+  "source_type": "philanthropic",
+  "frequency": "weekly",
+  "search_queries": [
+    "site:templeton.org funding grant",
+    "site:sloan.org grant program",
+    "philosophy of science research grant",
+    "consciousness research funding 2026"
+  ],
+  "target_urls": [
+    "https://www.templeton.org/grants/grant-calendar",
+    "https://sloan.org/programs",
+    "https://www.templetonworldcharity.org/our-priorities"
+  ],
+  "eligibility_defaults": {
+    "geography": ["Global"],
+    "institution_type": ["Academic", "Nonprofit"]
+  },
+  "focus_area_keywords": [
+    "philosophy-of-science",
+    "consciousness",
+    "free-will",
+    "foundations-of-physics",
+    "science-and-religion",
+    "big-questions",
+    "human-flourishing",
+    "character-virtue"
+  ],
+  "funders": [
+    {
+      "name": "John Templeton Foundation",
+      "url": "https://www.templeton.org/",
+      "typical_amount": "$100K-$500K",
+      "focus": "Big questions, science & religion, character",
+      "process": "LOI required before full proposal"
+    },
+    {
+      "name": "Templeton World Charity Foundation",
+      "url": "https://www.templetonworldcharity.org/",
+      "typical_amount": "$100K-$1M+",
+      "focus": "Human flourishing, global development"
+    },
+    {
+      "name": "Alfred P. Sloan Foundation",
+      "url": "https://sloan.org/",
+      "typical_amount": "$50K-$500K",
+      "focus": "STEM, public understanding of science, economics"
+    }
+  ],
+  "notes": "Templeton requires LOI submissions 2-3 months before full proposal deadlines. Check calendar carefully."
+}
